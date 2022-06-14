@@ -4,7 +4,7 @@ precision mediump float;
 
 uniform vec2 u_resolution;
 uniform float u_time;
-const int AMOUNT=12;
+const int AMOUNT=3;
 void main(){
   vec2 coord=20.*(gl_FragCoord.xy-u_resolution/2.)/min(u_resolution.y,u_resolution.x);
   

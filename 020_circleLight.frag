@@ -11,7 +11,7 @@ void main(){
   vec3 color=vec3(0.);
   vec2 translate=vec2(-.5,-.5);
   coord+=translate;
-  for(int i=0;i<20;i++){
+  for(int i=0;i<10;i++){
     float radius=.3;
     float rad=radians(360./20.)*float(i)*u_time;
     // float rad=radians(360./40.)*float(i);
